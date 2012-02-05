@@ -6,15 +6,31 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>{{ page.title }}</title>
     <meta name="author" content="Volodymyr Floreskul" />
-    <meta name="description" content="Writings, screencasts, and talks by Zach Holman. Zach works at GitHub and enjoys consuming cherry pies." />
+    <meta name="description" content="Volodymyr's website" />
     <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/css/styles.css" type="text/css" media="screen, projection" />
 </head>
 
 <body>
-<div class="header"></div>
+    <div class="header">
+        <img src="images/volodymyr.png" width="100" />
 
-{{ content }}
-
+        <div class="div-table profile_links">
+            <div class="div-table-row">
+                <div class="div-table-cell profile_logo"><img src="/images/linkedin_logo.png" width="40"/></div>
+                <div class="div-table-cell"><a href="http://linkedin.com/in/volodymyrfloreskul">Linkedin</a></div>
+            </div>
+            <div class="div-table-row">
+                <div class="div-table-cell profile_logo"><img src="/images/google_plus_logo.png" width="25"/></div>
+                <div class="div-table-cell"><a href="https://plus.google.com/101912497163388897110">Google+</a></div>
+            </div>
+            <div class="div-table-row">
+                <div class="div-table-cell profile_logo"><img src="/images/github_logo.png" width="40"/></div>
+                <div class="div-table-cell"><a href="https://github.com/floreskul">GitHub</a></div>
+            </div>
+        </div>
+    </div>
+    
+    {{ content }}
 </body>
 </html>
