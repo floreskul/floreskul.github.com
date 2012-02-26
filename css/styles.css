@@ -56,3 +56,10 @@ a:hover {
     display: table-cell;
     vertical-align: middle;
 }
+
+.email {
+  border-bottom:1px dotted #000;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
