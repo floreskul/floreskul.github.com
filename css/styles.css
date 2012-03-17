@@ -27,7 +27,7 @@ a:hover {
 
 .header {
   position: fixed;
-  left: 50px;
+  left: 40px;
   top: 60px;
   width: 100px;
   font-family: Helvetica, sans-serif;
@@ -35,8 +35,8 @@ a:hover {
 
 .content {
     margin-top: 60px;
-    margin-left: 200px;
-    width: 600px;
+    margin-left: 180px;
+    width: 620px;
 }
 
 .profile_links {
