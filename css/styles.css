@@ -21,6 +21,10 @@ a:hover {
   text-decoration: underline;
 }
 
+.photo {
+  width: 75px;
+}
+
 .header {
   position: fixed;
   left: 50px;
@@ -46,6 +50,7 @@ a:hover {
 .div-table {
     display: table;
     border:0px;
+    font-size: 13px;
 }
 
 .div-table-row {
