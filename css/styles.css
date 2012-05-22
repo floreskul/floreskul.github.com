@@ -21,6 +21,10 @@ a:hover {
   text-decoration: underline;
 }
 
+.centered {
+  text-align: center;
+}
+
 .photo {
   width: 75px;
 }
